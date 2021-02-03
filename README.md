@@ -1,6 +1,6 @@
 # Grayscale
 
-Grayscale is a static site for my creative studio [Intoo.Studio](https://intoo.studio/). It provides a landing page for myself, Cynthia Trujillo ~ Film, Photography, Poetry and more.
+Grayscale is a static site for my creative studio [Intoo.Studio](https://intoo.studio/). It provides a landing page for myself, Cody Lake ~ Film, Photography, Poetry and more.
 
 ## Resources
 
@@ -24,11 +24,7 @@ Storage with [AWS EC2](https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2&ec2-what
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 
 ## Author
-Programmer: Cynthia Trujillo 
-Copy writer: Cynthia Trujillo
-Photographer: Cynthia Trujillo
-Director: Cynthia Trujillo
-Admin: Cynthia Trujillo
+Programming, copy, films, maintenance, and updates on this site are all performed by Cody Lake
 
 ### Connect
 [GitHub](https://github.com/publishct)
