@@ -1,0 +1,21 @@
+.full-img {
+  width: 512px;
+  margin: 0 auto;
+  display: block;
+}
+
+.displayed-img {
+  position: center;
+  display: block;
+  height: auto;
+  width: 100%;
+  height: auto;
+  max-width: 512px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
