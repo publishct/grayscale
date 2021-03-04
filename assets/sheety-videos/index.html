@@ -10,9 +10,17 @@
 	<script src="main.js"></script>
 	<script id="app-template" type="text/x-handlebars-template">
 
+	<!--AdSense-->
+	<script data-ad-client="pub-4639253412267085" async src="https://pagead2.googlesyndication.com/
+pagead/js/adsbygoogle.js"></script>
+	<!--End AdSense-->
 	<div class="container-fluid pl-5 pt-3 logo">
-		<a href="https://fontmeme.com/netflix-font/"><img src="https://fontmeme.com/permalink/210109/358e65d11ab9214a7c14792d7bdeefcb.png" alt="netflix-font" border="0"></a>	</div>
-	<div class="featured_video" style="background-image:url('https://img.youtube.com/vi/{{featured.youtubeID}}/maxresdefault.jpg')">
+		<a href="https://fontmeme.com/netflix-font/"><img
+				src="https://fontmeme.com/permalink/210109/358e65d11ab9214a7c14792d7bdeefcb.png" alt="netflix-font"
+				border="0"></a>
+	</div>
+	<div class="featured_video"
+		style="background-image:url('https://img.youtube.com/vi/{{featured.youtubeID}}/maxresdefault.jpg')">
 		<div class="gradient d-flex align-items-end">
 			<div class="container-fluid p-5 ">
 				<div class="row">
@@ -25,25 +33,26 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="container-fluid pl-5 pr-5">
 		{{#each this.videos as |category|}}
-			<h5>{{@key}}</h5>
-			<div class="row">
-				{{#each this as |video|}}
-					<div class="col-md-3">
-						<div class="card bg-dark mb-3">
-							<a target="_blank" href="{{video.url}}">
-								<img src="https://img.youtube.com/vi/{{video.youtubeID}}/maxresdefault.jpg" class="card-img-top">
-							</a>
-							<p class="text-white">{{video.name}}</p>
-						</div>
-					</div>
-				{{/each}}
+		<h5>{{@key}}</h5>
+		<div class="row">
+			{{#each this as |video|}}
+			<div class="col-md-3">
+				<div class="card bg-dark mb-3">
+					<a target="_blank" href="{{video.url}}">
+						<img src="https://img.youtube.com/vi/{{video.youtubeID}}/maxresdefault.jpg"
+							class="card-img-top">
+					</a>
+					<p class="text-white">{{video.name}}</p>
+				</div>
 			</div>
+			{{/each}}
+		</div>
 		{{/each}}
 	</div>
-</script>
+	</script>
 </head>
 
 <body>
