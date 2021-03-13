@@ -3,7 +3,7 @@ const thumbBar = document.querySelector('.thumb-bar');
 
 /* Looping through images */
 
-for (let i = 1; i < 6; i++) {
+for (let i = 1; i < 11; i++) {
 
     const input = i;
     let name = `assets/img/images/pic${input}.jpg`;
