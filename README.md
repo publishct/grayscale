@@ -4,10 +4,9 @@ Grayscale is a static site for my creative studio [Intoo.Studio](https://intoo.s
 
 ## Resources
 
-Use [Sheety.co](https://sheety.co/) to create tables from Google Sheets
-Use [fontmeme.com](https://fontmeme.com/permalink/210109/f0c4b65a8d33ec0191e6c68b2dbd07b2.png) for Netflix font
+Use [pageflip](https://github.com/madureira/pageflip.git) for a CSS3 and JavaScript library that creates a digital magazine using all the advantages of HTML5.
 Use [favicon.io](https://favicon.io/) for browser favicon generator
-Use [mdn-image-gallery-zip](https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/gallery/gallery-start.zip?raw=true) for JavaScript powered image gallery for dealing with images and thumbnails
+
 
 ## Server and DNS
 
